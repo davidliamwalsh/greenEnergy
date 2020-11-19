@@ -1,0 +1,20 @@
+{
+  "name": "greenenergy",
+  "version": "1.0.0",
+  "description": "tech test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^10.0.2",
+    "next-images": "^1.6.2",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-svg-loader": "^3.0.3"
+  }
+}
