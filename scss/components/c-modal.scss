@@ -1,8 +1,14 @@
 .c-modal {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-row-gap: 50px;
   border: 4px solid #F7F7F7;
   box-shadow: #F7F7F7;
   background: #FEFEFE;
   width: 360px;
+}
+
+@media screen and (min-width: 600px) {
+  .c-modal {
+    width: 600px;
+  }
 }
