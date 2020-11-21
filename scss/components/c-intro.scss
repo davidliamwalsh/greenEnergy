@@ -1,31 +1,26 @@
 .c-intro {
-  padding: 1em 0 1.5em 0;
   &__title {
     font-size: 1.5em;
-    line-height: 1.6em;
     color: #4C494B;
     font-weight: 500;
     letter-spacing: -.045em
   }
   &__text {
     font-size: 1em;
-    line-height: 1.1em;
     color: #948F93;
     letter-spacing: -.045em;
     font-weight: 300;
+    margin-top: 10px;
   }
 }
 
 @media screen and (min-width: 600px) {
   .c-intro {
-    padding: 1em 0 1.5em 0;
     &__title {
       font-size: 2em;
-      line-height: 2.1em;
     }
     &__text {
       font-size: 1.25em;
-      line-height: 1.3em;
     }
   }
 }

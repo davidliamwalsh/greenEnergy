@@ -16,10 +16,16 @@ textarea:focus, input:focus{
   outline: none;
 }
 
-.section {
-  padding: 2em;
-}
-
 .border {
   border: 2px solid #F7F7F7;
+}
+
+.section {
+  padding: 30px;
+}
+
+@media screen and (min-width: 600px) {
+  .section {
+    padding: 50px;
+  }
 }

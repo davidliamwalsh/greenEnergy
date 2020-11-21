@@ -15,11 +15,11 @@
     background: #f8f8f8;
     border: -35px solid #e4dee3;
     border-radius: 8px;
+    margin: 5px 0 20px 0;
   }
   &__check {
     display: flex;
     align-content: center;
-    padding: 10px 0 2em 0;
     &--input {
       height: 18px;
       width: 18px;
@@ -37,6 +37,7 @@
   }
 
   &__submit {
+    margin-top: 30px;
     &--button {
       background: #FEFEFE;
       color: #4c494b;
@@ -63,6 +64,7 @@
     }
   
     &__submit {
+      margin-top: 50px;
       &--button {
         font-size: 18px;
         height: auto;
