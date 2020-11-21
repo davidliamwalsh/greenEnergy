@@ -1,5 +1,11 @@
 .c-logo {
   img {
-    height: 20px;
+    height: 32px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  img {
+    height: 40px;
   }
 }

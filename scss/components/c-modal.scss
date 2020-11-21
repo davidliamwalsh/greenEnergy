@@ -6,3 +6,9 @@
   background: #FEFEFE;
   width: 360px;
 }
+
+@media screen and (min-width: 600px) {
+  .c-modal {
+    width: 600px;
+  }
+}

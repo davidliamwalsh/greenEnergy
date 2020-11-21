@@ -1,6 +1,12 @@
 .c-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 100vh;
+}
+
+@media screen and (min-width: 600px) {
+  .c-container {
+    align-items: center;
+  }
 }
